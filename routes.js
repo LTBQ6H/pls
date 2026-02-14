@@ -1,8 +1,8 @@
 const appVue = new Vue({
     el: '#root',
     data: {
-        url1: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQklakpFO9H56h1UHHgsQNwhQrwArgNm5MyNPbf-6QUtLKU3UWFm_cnNDqFkBltEj2CqkCnjIyUdRAv/pubhtml?gid=1352438841&single=true",
-        url2: "https://script.google.com/macros/s/AKfycbww_fcmASpd2V7aBkxJrmhN65Vz6w45_A6b1LSDEmViuCz2OXcb7OSFmEGMyvtuQWwfUA/exec",
+        url1: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQklakpFO9H56h1UHHgsQNwhQrwArgNm5MyNPbf-6QUtLKU3UWFm_cnNDqFkBltEj2CqkCnjIyUdRAv/pubhtml",
+        url2: "https://script.google.com/macros/s/AKfycbzg_H7fUOUgnNliFViBM5sKiou8BRxuvdp5Zfmuq21ARl3ColzKxDKE-d6vJrAtFXLG2g/exec",
         paths: "",
         search_query: "",
         productList: [],
