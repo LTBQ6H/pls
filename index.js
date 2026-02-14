@@ -68,7 +68,7 @@ function callSearchAPI(query){
   if (query && query.length > 0) {
     query_str = "?query=" + query
   }
-  fetch("https://script.google.com/macros/s/AKfycbww_fcmASpd2V7aBkxJrmhN65Vz6w45_A6b1LSDEmViuCz2OXcb7OSFmEGMyvtuQWwfUA/exec" + query_str)
+  fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vQklakpFO9H56h1UHHgsQNwhQrwArgNm5MyNPbf-6QUtLKU3UWFm_cnNDqFkBltEj2CqkCnjIyUdRAv/pubhtml" + query_str)
   .then(res => res.json())
   .then(res => {
     contentTitle = res['data']
